@@ -1,7 +1,7 @@
 <template>
     <header class="headerContainer">
         <router-link to="/" class="logo">
-           Atipikal Characters 
+           Marvel Characters 
         </router-link>
         
     </header>

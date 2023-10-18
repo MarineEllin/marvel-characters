@@ -4,7 +4,7 @@ const privateKey = import.meta.env.VITE_PRIVATE_KEY;
 const publicKey = import.meta.env.VITE_PUBLIC_KEY;
 const timestamp = new Date().getTime();
 const hash = MD5(`${timestamp}${privateKey}${publicKey}`);
-const url = "http://gateway.marvel.com/v1/public/characters/";
+const url = "https://gateway.marvel.com/v1/public/characters/";
 
 const params: URLSearchParams = new URLSearchParams({
     apikey: String(publicKey),

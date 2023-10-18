@@ -1,6 +1,6 @@
 <template>
     <footer>
-    <p class="logo">Atipikal Characters</p>
+    <p class="logo">Marvel Characters</p>
     <p>​©2023 - Tous droits réservés</p>  
     </footer>
 </template>
